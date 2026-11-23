@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(const FreshBasketApp());
+void main() => runApp(const DailyTaazaApp());
 
-class FreshBasketApp extends StatelessWidget {
-  const FreshBasketApp({super.key});
+class DailyTaazaApp extends StatelessWidget {
+  const DailyTaazaApp({super.key});
 
   @override
   Widget build(BuildContext context) {
