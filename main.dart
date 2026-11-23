@@ -8,7 +8,7 @@ class DailyTaazaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'FreshBasket',
+      title: 'DailyTaaza',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF16834A)),
@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> {
     ];
     return Scaffold(
       appBar: AppBar(
-        title: const Text('FreshBasket', style: TextStyle(fontWeight: FontWeight.bold)),
+        title: const Text('DailyTaaza', style: TextStyle(fontWeight: FontWeight.bold)),
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 16),
